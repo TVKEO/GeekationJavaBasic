@@ -7,8 +7,8 @@ public class Main {
 	    
 	    int age = 15;
 	    double height=120.5;
-	    int num1 =24;
-	    int num2=100;
+	    int num1 =25;
+	    int num2=50;
 	  
 	    GeekIntroduction.greeting (age,height);
 	    GeekIntroduction.specialSkill(num1,num2);

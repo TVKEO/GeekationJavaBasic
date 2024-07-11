@@ -1,5 +1,7 @@
 package basicSyntax;
 
+import java.security.PublicKey;
+
 public class GeekIntroduction {
 
 	public static void greeting(int age, double height) {
@@ -13,10 +15,10 @@ public class GeekIntroduction {
 	}
 
 	public static void specialSkill(int num1, int num2) {
-		if (num1 < 0 || num2 < 0) {
+		if (num1 < 1 || num2 < 1) {
 			System.out.println("num1とnum2は0より大きい値にしてください。");
 			return;
-		} else if (num2 < num1) {
+		} else if (num2 <= num1) {
 			System.out.println("num2はnum1より大きい値にしてください。");
 			return;
 		} else if (num1 > 300 || num2 > 300) {
@@ -36,8 +38,9 @@ public class GeekIntroduction {
 				System.out.println(num1 + "は5の倍数です。");
 				num1++;
 				continue;
-
+				
 			}
+			System.out.println(num1);
 			num1++;
 		}
 	}
